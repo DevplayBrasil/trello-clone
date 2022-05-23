@@ -123,7 +123,7 @@ try {
 
                 try {
 
-                    $getMaxTaskOrder = $pdo->query("SELECT MAX(task_order) max_task_order, MAX(id) max_id FROM `tasks` WHERE board_id = " . $_POST['board_id'])->fetch();
+                    $getMaxTaskOrder = $pdo->query("SELECT MAX(task_order) max_task_order, MAX(id) max_id FROM `tasks` WHERE board_id = " . $postFields['board_id'])->fetch();
                     $taskTitle       = $postFields['title'];
 
                     $stmt = $pdo->prepare('INSERT INTO tasks (board_id, title, task_order) VALUES(:board_id, :title, :task_order)');
