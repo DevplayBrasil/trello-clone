@@ -12,6 +12,6 @@ class Board extends Model
     protected $guarded = [];
 
     public function tasks(){
-        return $this->hasMany(Task::class);
+        return $this->hasMany(Task::class)->orderBy("task_order");
     }
 }

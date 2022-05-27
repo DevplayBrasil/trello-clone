@@ -28072,7 +28072,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.column-width[data-v-70e39c44] {\r\n    min-width: 320px;\r\n    width: 320px;\n}\r\n\r\n/* Unfortunately @apply cannot be setup in codesandbox, \r\nbut you'd use \"@apply border opacity-50 border-blue-500 bg-gray-200\" here */\n.ghost-card[data-v-70e39c44] {\r\n    opacity: 0.5;\r\n    background: #F7FAFC;\r\n    border: 1px solid #4299e1;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.column-width[data-v-70e39c44] {\n    min-width: 320px;\n    width: 320px;\n}\n\n/* Unfortunately @apply cannot be setup in codesandbox, \nbut you'd use \"@apply border opacity-50 border-blue-500 bg-gray-200\" here */\n.ghost-card[data-v-70e39c44] {\n    opacity: 0.5;\n    background: #F7FAFC;\n    border: 1px solid #4299e1;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

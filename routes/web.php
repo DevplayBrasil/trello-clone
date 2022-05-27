@@ -34,6 +34,7 @@ Route::middleware([
     /****** Boards ******/
     Route::get("/read-boards", [BoardController::class, "index"]);
     Route::post("/create-board", [BoardController::class, "store"]);
+    Route::patch("/update-board/{board}", [BoardController::class, "update"]);
     /****** END Boards ******/
 
     Route::get('/dashboard', function () {
